@@ -18,12 +18,11 @@ Fist of all you need to find EEPROM somewhere on the main board. In my case MacB
 
 ![EEPROM location](https://www.allservice.ro/forum/images/A1278-2012.jpg?raw=true)
 
-I tried to use cips but didn't worked out for me. So olny way was to remove EEPROM from main board and put it into multi-functional programmer and read it's content.
-That worked well.
+I tried to use cips but it didn't work out for me. So the only way was to remove EEPROM from the main board and put it into a multi-functional programmer and read it's content. That worked well.
 
-Open bin file in HxD hex editor. In opened file look for $SVS characters. In my case $SVS starts at address: 0x00692050. Next questioin was how much data I should delete. I couldn't find any trustable source on internet as each example was done on different MacBooks. I tied my luck and deleted all data up to the place where lot of FF appiers.
+Open bin file in HxD hex editor. In the opened file look for $SVS characters. In my case $SVS starts at address: 0x00692050. Next question was how much data I should delete. I couldn't find any trustable source on the internet as each example was done on different MacBooks. I tried my luck and deleted all data up to the place where a lot of FF appiers.
 
-Uploaded bin file back to EEPROM and soldered back. Started the MacBook and lucky me, password was gone.
+Uploaded bin file back to EEPROM and soldered back. Started the MacBook and lucky me, my password was gone.
 
 ## References
 
