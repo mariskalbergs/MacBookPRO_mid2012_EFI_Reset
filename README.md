@@ -27,6 +27,6 @@ Uploaded bin file back to EEPROM and soldered back. Started the MacBook and luck
 
 ## References
 
-[EEPROM Location on different MacBooks](https://www.allservice.ro/forum/viewtopic.php?t=2724)
-[](https://www.youtube.com/watch?v=oI3V5KKKmCI)
-[Reflashing EFI ROM](https://gist.github.com/willzhang05/e5b5563cdc65514dfb7ca131e03ca4b2)
+- [EEPROM Location on different MacBooks](https://www.allservice.ro/forum/viewtopic.php?t=2724)
+- [Video](https://www.youtube.com/watch?v=oI3V5KKKmCI)
+- [Reflashing EFI ROM](https://gist.github.com/willzhang05/e5b5563cdc65514dfb7ca131e03ca4b2)
